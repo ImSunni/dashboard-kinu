@@ -3,5 +3,166 @@
     "name": "Kinu BOT",
     "avatar": "https://cdn.discordapp.com/attachments/823245068449611806/824563140821123132/ead559e1489de185e54082140071f683.jpg",
     "invite": "https://discord.gg/H6e4s9v9QU"
+  },
+
+  "commands" : {
+    "Basic": [{
+      "name": "help",
+      "category": "basic",
+      "description": "List of commands",
+      "aliases": ["h"],
+      "usage": ">help"
+    }, {
+      "name": "helpmusic",
+      "category": "basic",
+      "description": "List of music commands",
+      "aliases": ["hmc"],
+      "usage": ">helpmusic"
+    }, {
+      "name": "helpmod",
+      "category": "basic",
+      "description": "List of moderation commands",
+      "aliases": ["hmd"],
+      "usage": ">helpmod"
+    }],
+    "Information": [{
+      "name": "info",
+      "category": "Information",
+      "description": "Information of the bot",
+      "usage": ">info"
+    }, {
+      "name": "sinfo",
+      "category": "Information",
+      "description": "Information of the server",
+      "usage": ">sinfo"
+    }, {
+      "name": "ping",
+      "category": "Information",
+      "description": "Ping of the bot",
+      "usage": ">ping"
+    }],
+    "Moderation" : [{
+      "name": "ban",
+      "category": "Moderation",
+      "description": "Ban a member",
+      "usage": ">ban <mention> <reason>"
+    }, {
+      "name": "unban",
+      "category": "Moderation",
+      "description": "Unban a member",
+      "usage": ">unban <User ID>"
+    }, {
+      "name": "goulag",
+      "category": "Moderation",
+      "description": "Mute a member",
+      "usage": ">goulag <mention> <duration>"
+    }, {
+      "name": "gremove",
+      "category": "Moderation",
+      "description": "Unmute a member",
+      "usage": ">gremove <mention>"
+    }, {
+      "name": "clear",
+      "category": "Moderation",
+      "description": "Clear number of messages",
+      "aliases": ["c"],
+      "usage": ">clear <number>"
+    }, {
+      "name": "clearall",
+      "category": "Moderation",
+      "description": "Clear all messages of channel",
+      "usage": ">clearall"
+    }],
+    "Music" : [{
+      "name": "play",
+      "category": "Music",
+      "description": "Play song",
+      "aliases": ["p"],
+      "usage": ">play <NAME/URL>"
+    }, {
+      "name": "skip",
+      "category": "Music",
+      "description": "Skip song",
+      "aliases": ["s"],
+      "usage": ">skip"
+    }, {
+      "name": "stop",
+      "category": "Music",
+      "description": "Stop the music and leave the channel",
+      "aliases": ["leave"],
+      "usage": ">stop"
+    }, {
+      "name": "queue",
+      "category": "Music",
+      "description": "Songs Queue",
+      "aliases": ["qu"],
+      "usage": ">queue"
+    }, {
+      "name": "volume",
+      "category": "Music",
+      "description": "Change volume of the song",
+      "aliases": ["vol"],
+      "usage": ">volume <number in %>"
+    }, {
+      "name": "resume",
+      "category": "Music",
+      "description": "Resume the song",
+      "aliases": ["r"],
+      "usage": ">resume"
+    }, {
+      "name": "pause",
+      "category": "Music",
+      "description": "Pause the song",
+      "usage": ">pause"
+    }, {
+      "name": "search",
+      "category": "Music",
+      "description": "Search top 15 of your request",
+      "usage": ">search <NAME/URL>"
+    }, {
+      "name": "status",
+      "category": "Music",
+      "description": "Queue status",
+      "usage": ">status"
+    }, {
+      "name": "loop",
+      "category": "Music",
+      "description": "Repeat Song/Queue/OFF",
+      "usage": ">loop <0/1/2>"
+    }, {
+      "name": "autoplay",
+      "category": "Music",
+      "description": "Active autoplay",
+      "aliases": ["ap"],
+      "usage": ">autoplay"
+    }, {
+      "name": "shuffle",
+      "category": "Music",
+      "description": "shuffle queue",
+      "aliases": ["mix"],
+      "usage": ">shuffle"
+    }, {
+      "name": "nowplaying",
+      "category": "Music",
+      "description": "Current song",
+      "aliases": ["np"],
+      "usage": ">nowplaying"
+    }, {
+      "name": "playskip",
+      "category": "Music",
+      "description": "Skip the current song and Play the requested song",
+      "aliases": ["ps"],
+      "usage": ">playskip"
+    }, {
+      "name": "seek",
+      "category": "Music",
+      "description": "Seek the song",
+      "usage": ">seek <duration>"
+    }, {
+      "name": "jump",
+      "category": "Music",
+      "description": "Jump to another song in the queue",
+      "usage": ">jump <queue num.>"
+    }]
   }
 }
