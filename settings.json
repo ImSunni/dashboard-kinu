@@ -10,18 +10,21 @@
       "name": "help",
       "category": "basic",
       "description": "List of commands",
+      "permissions": [""],
       "aliases": ["h"],
       "usage": ">help"
     }, {
       "name": "helpmusic",
       "category": "basic",
       "description": "List of music commands",
+      "permissions": [""],
       "aliases": ["hmc"],
       "usage": ">helpmusic"
     }, {
       "name": "helpmod",
       "category": "basic",
       "description": "List of moderation commands",
+      "permissions": [""],
       "aliases": ["hmd"],
       "usage": ">helpmod"
     }],
@@ -29,139 +32,178 @@
       "name": "info",
       "category": "Information",
       "description": "Information of the bot",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">info"
     }, {
       "name": "sinfo",
       "category": "Information",
       "description": "Information of the server",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">sinfo"
     }, {
       "name": "ping",
       "category": "Information",
       "description": "Ping of the bot",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">ping"
     }],
     "Moderation" : [{
       "name": "ban",
       "category": "Moderation",
       "description": "Ban a member",
+      "permissions": ["BAN_MEMBERS"],
+      "aliases": [],
       "usage": ">ban <mention> <reason>"
     }, {
       "name": "unban",
       "category": "Moderation",
       "description": "Unban a member",
+      "permissions": ["BAN_MEMBERS"],
+      "aliases": [],
       "usage": ">unban <User ID>"
     }, {
       "name": "goulag",
       "category": "Moderation",
       "description": "Mute a member",
+      "permissions": ["MANAGE_ROLES"],
+      "aliases": [],
       "usage": ">goulag <mention> <duration>"
     }, {
       "name": "gremove",
       "category": "Moderation",
       "description": "Unmute a member",
+      "permissions": ["MANAGE_ROLES"],
+      "aliases": [],
       "usage": ">gremove <mention>"
     }, {
       "name": "clear",
       "category": "Moderation",
       "description": "Clear number of messages",
+      "permissions": ["MANAGE_MESSAGES"],
       "aliases": ["c"],
       "usage": ">clear <number>"
     }, {
       "name": "clearall",
       "category": "Moderation",
       "description": "Clear all messages of channel",
+      "permissions": ["MANAGE_MESSAGES"],
+      "aliases": [],
       "usage": ">clearall"
     }],
     "Music" : [{
       "name": "play",
       "category": "Music",
       "description": "Play song",
+      "permissions": [""],
       "aliases": ["p"],
       "usage": ">play <NAME/URL>"
     }, {
       "name": "skip",
       "category": "Music",
       "description": "Skip song",
+      "permissions": [""],
       "aliases": ["s"],
       "usage": ">skip"
     }, {
       "name": "stop",
       "category": "Music",
       "description": "Stop the music and leave the channel",
+      "permissions": [""],
       "aliases": ["leave"],
       "usage": ">stop"
     }, {
       "name": "queue",
       "category": "Music",
       "description": "Songs Queue",
+      "permissions": [""],
       "aliases": ["qu"],
       "usage": ">queue"
     }, {
       "name": "volume",
       "category": "Music",
       "description": "Change volume of the song",
+      "permissions": [""],
       "aliases": ["vol"],
       "usage": ">volume <number in %>"
     }, {
       "name": "resume",
       "category": "Music",
       "description": "Resume the song",
+      "permissions": [""],
       "aliases": ["r"],
       "usage": ">resume"
     }, {
       "name": "pause",
       "category": "Music",
       "description": "Pause the song",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">pause"
     }, {
       "name": "search",
       "category": "Music",
       "description": "Search top 15 of your request",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">search <NAME/URL>"
     }, {
       "name": "status",
       "category": "Music",
       "description": "Queue status",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">status"
     }, {
       "name": "loop",
       "category": "Music",
       "description": "Repeat Song/Queue/OFF",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">loop <0/1/2>"
     }, {
       "name": "autoplay",
       "category": "Music",
       "description": "Active autoplay",
+      "permissions": [""],
       "aliases": ["ap"],
       "usage": ">autoplay"
     }, {
       "name": "shuffle",
       "category": "Music",
       "description": "shuffle queue",
+      "permissions": [""],
       "aliases": ["mix"],
       "usage": ">shuffle"
     }, {
       "name": "nowplaying",
       "category": "Music",
       "description": "Current song",
+      "permissions": [""],
       "aliases": ["np"],
       "usage": ">nowplaying"
     }, {
       "name": "playskip",
       "category": "Music",
       "description": "Skip the current song and Play the requested song",
+      "permissions": [""],
       "aliases": ["ps"],
       "usage": ">playskip"
     }, {
       "name": "seek",
       "category": "Music",
       "description": "Seek the song",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">seek <duration>"
     }, {
       "name": "jump",
       "category": "Music",
       "description": "Jump to another song in the queue",
+      "permissions": [""],
+      "aliases": [],
       "usage": ">jump <queue num.>"
     }]
   }
